@@ -12,5 +12,7 @@ async function main(){
         const categoriesCollection = client.db("food-ordering").collection("categories");
 
         productsCollection.drop();
+    }catch{
+        
     }
 }
